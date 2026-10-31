@@ -14,9 +14,6 @@
 
 ## 개발 환경
 
-- Language: SystemVerilog
-- Tool: Vivado (Simulation)
-
 <table>
 <tr><td><b>Language</b></td><td>
 <img src="https://img.shields.io/badge/-SYSTEMVERILOG-00A99D?style=for-the-badge&logoColor=white"/>
@@ -63,7 +60,7 @@ IF (Instruction Fetch) → ID (Instruction Decode) → EX (Execute) → MEM (Mem
 
 ---
 
-## 🧱 Block Diagram
+## Block Diagram
 
 ### 전체 구조
 <img width="2389" height="1575" alt="Image" src="https://github.com/user-attachments/assets/2827d29f-fffe-4f38-9c72-ebd2acf26bcc" />
@@ -87,7 +84,7 @@ IF (Instruction Fetch) → ID (Instruction Decode) → EX (Execute) → MEM (Mem
 
 ---
 
-## 📋 RV32I Instruction Set
+## RV32I Instruction Set
 
 RISC-V의 기본 정수 명령어 세트로, 레지스터 크기(XLEN)는 32비트이며 6가지 타입으로 구분됩니다.
 <img width="3325" height="447" alt="Image" src="https://github.com/user-attachments/assets/c55d32d5-2d44-440b-b9c4-67b73b586880" />
@@ -119,7 +116,7 @@ RISC-V의 기본 정수 명령어 세트로, 레지스터 크기(XLEN)는 32비�
 
 ---
 
-## 🔍 Type별 상세 설명
+## Type별 상세 설명
 
 ### R-Type (Register Type)
 레지스터 값 2개를 연산한 결과를 레지스터에 저장합니다.
@@ -255,7 +252,7 @@ PC += imm     (Jump)
 
 ---
 
-## 💻 C & Assembly 활용 예제
+## C & Assembly 활용 예제
 
 ### Adder 예제
 
