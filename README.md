@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 프로젝트 개요
+## 프로젝트 개요
 
 - RV32I 명령어 셋을 기반으로 하는 RISC-V 구조의 Single Cycle CPU 설계
 - RV32I 명령어 셋 Type 별 설계 및 Simulation 검증
@@ -12,14 +12,27 @@
 
 ---
 
-## 🛠️ 개발 환경
+## 개발 환경
 
 - Language: SystemVerilog
 - Tool: Vivado (Simulation)
 
+<table>
+<tr><td><b>Language</b></td><td>
+<img src="https://img.shields.io/badge/-SYSTEMVERILOG-00A99D?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/-C LANGUAGE-11254D?style=for-the-badge&logoColor=white"/>
+</td></tr>
+<tr><td><b>Tool</b></td><td>
+<img src="https://img.shields.io/badge/VIVADO_(SIMULATION)-006400?style=for-the-badge&logo=amd&logoColor=white"/>
+</td></tr>
+<tr><td><b>Hardware</b></td><td>
+<img src="https://img.shields.io/badge/Basys3(FPGA)-FFC107?style=for-the-badge&logoColor=white"/>
+</td></tr>
+</table>
+
 ---
 
-## 📐 아키텍처 개요
+## 아키텍처 개요
 
 ### RISC-V란?
 
